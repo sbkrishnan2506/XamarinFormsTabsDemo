@@ -11,9 +11,6 @@
         </OnPlatform>
     </TabbedPage.ToolbarItems>-->
     <TabbedPage.Children>
-        <!--<OnPlatform x:TypeArguments="android:ToolbarPlacement">
-            <On Platform="Android" Value="android:ToolbarPlacement.Bottom"></On>
-        </OnPlatform>-->
         <NavigationPage Title="Browse" IconImageSource="tab_feed.png" BarTextColor="Cyan" >
             <x:Arguments>
                 <views:ItemsPage />
