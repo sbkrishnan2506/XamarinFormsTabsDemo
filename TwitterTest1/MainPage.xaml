@@ -3,13 +3,8 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"  
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" android:TabbedPage.ToolbarPlacement="Bottom"  android:TabbedPage.IsSwipePagingEnabled="True" 
             xmlns:views="clr-namespace:TwitterTest1.Views" mc:Ignorable="d" x:Class="TwitterTest1.MainPage">
-    <!--<TabbedPage.ToolbarItems>
-        <OnPlatform x:TypeArguments="android:ToolbarPlacement">
-            <On Platform="Android" Value="android:ToolbarPlacement.Bottom"></On>
-        </OnPlatform>
-    </TabbedPage.ToolbarItems>-->
     <TabbedPage.Children>
         <NavigationPage Title="Browse" IconImageSource="tab_feed.png" BarTextColor="Cyan" >
             <x:Arguments>
